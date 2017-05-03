@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:layout_gravity="50" app:orientation="1" app:background="#f0f0f0" app:layout_width="-1" app:layout_height="-1"
+    <LinearLayout app:orientation="0" app:background="0x7f02006c" app:layout_width="-1" app:layout_height="-2">
+        <ImageView app:layout_width="-2" app:layout_height="-2" app:layout_margin="0x7f090088" app:src="0x7f02008c" />
+        <TextView app:textSize="0x7f090097" app:textColor="0x7f0d014f" app:layout_gravity="10" app:id="0x7f0e008e" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="0x7f090088" app:layout_marginRight="0x7f090088" app:layout_marginBottom="0x7f090088" app:text="0x7f080058" app:layout_weight="1.0" />
+        <com.google.android.gms.plus.PlusOneButton plus:layout_gravity="11" plus:id="0x7f0e008f" plus:layout_width="80dp" plus:layout_height="-2" plus:layout_marginRight="5dp" plus:size="standard" plus:annotation="inline" />
+        <ImageButton plus:layout_gravity="10" plus:id="0x7f0e0090" plus:background="0x7f0d014b" plus:layout_width="24dp" plus:layout_height="24dp" plus:layout_marginLeft="0x7f090088" plus:layout_marginRight="0x7f090087" plus:src="0x7f020089" plus:scaleType="1" />
+    </LinearLayout>
+    <android.support.v7.widget.CardView card_view:id="0x7f0e0095" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_marginLeft="10dp" card_view:layout_marginTop="5dp" card_view:layout_marginRight="10dp" card_view:cardCornerRadius="4dp" card_view:cardElevation="0x7f09007c" card_view:cardPreventCornerOverlap="false">
+        <LinearLayout card_view:orientation="1" card_view:background="0x7f020068" card_view:layout_width="-1" card_view:layout_height="385dp">
+            <TextView card_view:textSize="0x7f09009a" card_view:autoLink="f" card_view:id="0x7f0e0096" card_view:layout_width="-1" card_view:layout_height="-2" card_view:layout_marginLeft="0x7f090087" card_view:layout_marginTop="0x7f090088" card_view:layout_marginRight="0x7f090087" card_view:layout_marginBottom="0x7f090087" card_view:text="Result Text" card_view:textIsSelectable="true" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <View android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f09008b" android:layout_marginRight="0x7f09008b">
+        <android.support.design.widget.FloatingActionButton android:layout_gravity="11" android:id="0x7f0e0092" android:layout_width="-2" android:layout_height="-2" android:src="0x7f02008a" android:borderWidth="0dp" android:backgroundTint="0x7f0d010a" />
+        <View android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" />
+        <android.support.design.widget.FloatingActionButton android:layout_gravity="51" android:id="0x7f0e0093" android:layout_width="-2" android:layout_height="-2" android:src="0x7f020094" android:elevation="6dp" android:borderWidth="0dp" android:backgroundTint="0x7f0d0005" />
+        <View android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" />
+        <android.support.design.widget.FloatingActionButton android:layout_gravity="11" android:id="0x7f0e0097" android:layout_width="-2" android:layout_height="-2" android:src="0x7f020093" android:borderWidth="0dp" android:backgroundTint="0x7f0d009b" />
+    </LinearLayout>
+    <View android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+    <com.google.android.gms.ads.AdView android:layout_gravity="51" android:id="0x7f0e007f" android:layout_width="-2" android:layout_height="-2" android:adSize="BANNER" android:adUnitId="0x7f08006d" />
+</LinearLayout>

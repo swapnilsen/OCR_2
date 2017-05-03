@@ -1,0 +1,21 @@
+package com.google.android.gms.ads;
+
+import com.google.android.gms.internal.zzem;
+import com.google.android.gms.internal.zzme;
+
+@zzme
+public final class Correlator {
+    private zzem zzrG;
+
+    public Correlator() {
+        this.zzrG = new zzem();
+    }
+
+    public void reset() {
+        this.zzrG.zzeV();
+    }
+
+    public zzem zzbq() {
+        return this.zzrG;
+    }
+}

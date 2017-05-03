@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:layout_gravity="50" app:orientation="1" app:background="#ffffffff" app:layout_width="-1" app:layout_height="-1"
+    <LinearLayout app:orientation="0" app:background="0x7f02006c" app:layout_width="-1" app:layout_height="-2">
+        <ImageView app:layout_width="36dp" app:layout_height="36dp" app:layout_margin="0x7f090088" app:src="0x7f020088" />
+        <TextView app:textSize="0x7f090097" app:textColor="0x7f0d014f" app:layout_gravity="10" app:id="0x7f0e008e" app:layout_width="0dp" app:layout_height="-2" app:layout_marginTop="0x7f090088" app:layout_marginRight="0x7f090088" app:layout_marginBottom="0x7f090088" app:text="0x7f08004e" app:layout_weight="1.0" />
+        <com.google.android.gms.plus.PlusOneButton plus:layout_gravity="11" plus:id="0x7f0e008f" plus:layout_width="80dp" plus:layout_height="-2" plus:size="standard" plus:annotation="inline" />
+        <ImageButton plus:layout_gravity="10" plus:id="0x7f0e0090" plus:background="0x7f0d014b" plus:layout_width="24dp" plus:layout_height="24dp" plus:layout_marginLeft="0x7f090088" plus:layout_marginRight="0x7f090087" plus:src="0x7f020089" plus:scaleType="1" />
+    </LinearLayout>
+    <ListView plus:id="0x7f0e0091" plus:layout_width="-1" plus:layout_height="0dp" plus:layout_margin="0x7f090088" plus:divider="0x7f020073" plus:dividerHeight="1dp" plus:layout_weight="1.0" />
+    <View plus:background="0x7f0d00a1" plus:layout_width="-1" plus:layout_height="1dp" plus:layout_marginLeft="0x7f090088" plus:layout_marginRight="0x7f090088" />
+    <LinearLayout plus:orientation="0" plus:layout_width="-2" plus:layout_height="-2" plus:layout_marginLeft="0x7f09008b" plus:layout_marginTop="0x7f090087" plus:layout_marginRight="0x7f09008b" plus:layout_marginBottom="0x7f090087">
+        <android.support.design.widget.FloatingActionButton plus:layout_gravity="51" plus:id="0x7f0e0092" plus:layout_width="-2" plus:layout_height="-2" plus:src="0x7f02008a" plus:elevation="6dp" plus:borderWidth="0dp" plus:backgroundTint="0x7f0d010a" />
+        <View plus:layout_width="0dp" plus:layout_height="-1" plus:layout_weight="1.0" />
+        <android.support.design.widget.FloatingActionButton plus:layout_gravity="51" plus:id="0x7f0e0093" plus:layout_width="-2" plus:layout_height="-2" plus:src="0x7f020094" plus:elevation="6dp" plus:borderWidth="0dp" plus:backgroundTint="0x7f0d0005" />
+        <View plus:layout_width="0dp" plus:layout_height="-1" plus:layout_weight="1.0" />
+        <android.support.design.widget.FloatingActionButton plus:layout_gravity="51" plus:id="0x7f0e0094" plus:layout_width="-2" plus:layout_height="-2" plus:src="0x7f020082" plus:elevation="6dp" plus:borderWidth="0dp" plus:backgroundTint="0x7f0d009b" />
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView plus:layout_gravity="51" plus:id="0x7f0e007f" plus:layout_width="-2" plus:layout_height="-2" plus:adSize="BANNER" plus:adUnitId="0x7f08006d" />
+</LinearLayout>

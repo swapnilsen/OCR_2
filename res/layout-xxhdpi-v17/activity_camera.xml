@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ads:gravity="51" ads:orientation="1" ads:layout_width="-1" ads:layout_height="-1">
+    <ImageButton ads:id="0x7f0e007e" ads:background="0x7f0d014b" ads:layout_width="75dp" ads:layout_height="75dp" ads:layout_margin="0x7f090087" ads:src="0x7f0200aa" ads:scaleType="1" ads:layout_above="0x7f0e007f" ads:layout_centerHorizontal="true" />
+    <com.google.android.gms.ads.AdView ads:layout_gravity="51" ads:id="0x7f0e007f" ads:layout_width="-2" ads:layout_height="-2" ads:layout_alignParentBottom="true" ads:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="0x7f08006d" />
+    <LinearLayout ads:gravity="51" ads:layout_gravity="51" ads:id="0x7f0e0080" ads:layout_width="-1" ads:layout_height="-2" ads:layout_above="0x7f0e007e" ads:layout_alignParentLeft="true" ads:layout_alignParentStart="true">
+        <TextView ads:id="0x7f0e0081" ads:background="#00000000" ads:layout_width="-2" ads:layout_height="-1" ads:layout_weight="1.0" />
+        <ImageView ads:id="0x7f0e0082" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginBottom="15dp" ads:src="0x7f02007a" />
+        <SeekBar ads:id="0x7f0e0083" ads:layout_width="120dp" ads:layout_height="-2" ads:layout_marginBottom="10dp" ads:max="100" ads:progress="50" ads:progressDrawable="0x7f030040" ads:thumb="0x7f030041" />
+        <ImageView ads:id="0x7f0e0084" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginBottom="15dp" ads:src="0x7f02007b" />
+        <TextView ads:id="0x7f0e0085" ads:background="#00000000" ads:layout_width="-2" ads:layout_height="-1" ads:layout_weight="1.0" />
+        <ImageView ads:id="0x7f0e0086" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginBottom="15dp" ads:src="0x7f0200b1" />
+        <SeekBar ads:id="0x7f0e0087" ads:layout_width="120dp" ads:layout_height="-2" ads:layout_marginBottom="10dp" ads:max="100" ads:progress="0" ads:progressDrawable="0x7f030040" ads:thumb="0x7f030041" />
+        <ImageView ads:id="0x7f0e0088" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginBottom="15dp" ads:src="0x7f0200b0" />
+        <TextView ads:id="0x7f0e0089" ads:background="#00000000" ads:layout_width="-2" ads:layout_height="-1" ads:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout ads:layout_width="-1" ads:layout_height="-2" ads:layout_margin="0x7f090087">
+        <ImageButton ads:id="0x7f0e008a" ads:background="0x7f0d014b" ads:layout_width="-2" ads:layout_height="-2" ads:src="0x7f020087" ads:layout_weight="1.0" />
+        <ImageButton ads:id="0x7f0e008b" ads:background="0x7f0d014b" ads:layout_width="-2" ads:layout_height="-2" ads:src="0x7f020083" ads:layout_weight="1.0" />
+        <ImageButton ads:id="0x7f0e008c" ads:background="0x7f0d014b" ads:layout_width="-2" ads:layout_height="-2" ads:src="0x7f02008d" ads:layout_weight="1.0" />
+        <ImageButton ads:id="0x7f0e008d" ads:background="0x7f0d014b" ads:layout_width="-2" ads:layout_height="-2" ads:src="0x7f020080" ads:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

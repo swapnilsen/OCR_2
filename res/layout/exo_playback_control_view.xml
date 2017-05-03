@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="50" android:orientation="1" android:background="#cc000000" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="11" android:orientation="0" android:paddingTop="4dp" android:layout_width="-1" android:layout_height="-2">
+        <ImageButton android:id="@r/prev" android:contentDescription="@r/exo_controls_previous_description" style="0x7f0a00dc" />
+        <ImageButton android:id="@r/rew" android:contentDescription="@r/exo_controls_rewind_description" style="0x7f0a00dd" />
+        <ImageButton android:id="@r/play" style="0x7f0a00d9" />
+        <ImageButton android:id="@r/ffwd" android:contentDescription="@r/exo_controls_fastforward_description" style="0x7f0a00da" />
+        <ImageButton android:id="@r/next" android:contentDescription="@r/exo_controls_previous_description" style="0x7f0a00db" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="14sp" android:textStyle="1" android:textColor="#ffbebebe" android:layout_gravity="1" android:id="@r/time_current" android:paddingTop="4dp" android:layout_width="-2" android:layout_height="-2" />
+        <SeekBar android:id="@r/mediacontroller_progress" android:layout_width="0dp" android:layout_height="32dp" android:layout_weight="1.0" style="?unknown_attr_ref: 1010078" />
+        <TextView android:textSize="14sp" android:textStyle="1" android:textColor="#ffbebebe" android:layout_gravity="1" android:id="@r/time" android:paddingTop="4dp" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout android:layout_gravity="11" android:id="@r/video_frame" android:layout_width="-1" android:layout_height="-1">
+        <View android:id="@r/shutter" android:background="0x106000c" android:layout_width="-1" android:layout_height="-1" />
+        <com.google.android.exoplayer2.ui.SubtitleView android:id="@r/subtitles" android:layout_width="-1" android:layout_height="-1" />
+    </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+    <com.google.android.exoplayer2.ui.PlaybackControlView android:id="@r/control" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>
